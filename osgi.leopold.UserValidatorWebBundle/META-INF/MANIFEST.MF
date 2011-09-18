@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UserValidatorWebBundle
+Bundle-SymbolicName: osgi.leopold.UserValidatorWebBundle
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi.leopold.uservalidatorwebbundle.Activator
+Bundle-Vendor: leopold
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.leopold.demo.service.user,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.service.http;version="1.2.1"
+Require-Bundle: javax.servlet;bundle-version="2.5.0"
